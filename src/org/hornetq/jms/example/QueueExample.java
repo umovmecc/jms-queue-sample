@@ -61,7 +61,11 @@ public class QueueExample extends HornetQExample
          MessageProducer producer = session.createProducer(queue);
 
          // Step 7. Create a Text Message
-         TextMessage message = session.createTextMessage("This is a text message");
+         TextMessage message = session.createTextMessage("loc.txt");
+
+         // loc.txt
+
+         // age.txt
 
          System.out.println("Sent message: " + message.getText());
 
