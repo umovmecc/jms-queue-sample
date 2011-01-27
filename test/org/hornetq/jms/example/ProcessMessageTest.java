@@ -40,14 +40,14 @@ public class ProcessMessageTest {
     @Test
     public void deveProcessarLocaisDeAtendimento() {
 
-        assertTrue(ProcessaMensagens.build("loc.txt") instanceof ProcessaLocaisAtendimento);
+        assertTrue(ProcessadorMensagens.processa("loc.txt") instanceof ProcessaLocaisAtendimento);
 
     }
 
     @Test
     public void deveProcessarAgentes() {
 
-        assertTrue(ProcessaMensagens.build("age.txt") instanceof ProcessaAgentes);
+        assertTrue(ProcessadorMensagens.processa("age.txt") instanceof ProcessaAgentes);
 
     }
 

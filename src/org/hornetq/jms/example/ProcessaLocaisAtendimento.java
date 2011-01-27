@@ -9,12 +9,15 @@ package org.hornetq.jms.example;
  *
  * @author dwildt
  */
-public class ProcessaLocaisAtendimento{
+public class ProcessaLocaisAtendimento implements Processador, DadoProcessado{
 
     public ProcessaLocaisAtendimento() {
         
     }
 
+    public DadoProcessado processa(String conteudo){
+        return this;
+    }
 
 
 }
