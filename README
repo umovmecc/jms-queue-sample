@@ -1,0 +1,20 @@
+What?
+Coding Dojo played during Jan 27th
+
+Where? 
+Trevisan Tecnologia (http://www.trevisantecnologia.com.br)
+
+Why?
+Team is looking for asynchronous technologies, so this time we played 
+refactoring a hornetq sample from the install.
+
+More? 
+Stay tuned for more samples being created around this Org [TrevisanTecnologia].
+
+How to run this code? 
+In this case, code must be placed inside the examples/jms directory from 
+hornetq install. If you want some other directory, just update your 
+build.sh/build.bat and build.xml to the right path.
+
+More about HornetQ?
+http://jboss.org/hornetq
