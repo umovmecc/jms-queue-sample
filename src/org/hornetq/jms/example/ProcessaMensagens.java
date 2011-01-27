@@ -10,13 +10,8 @@ package org.hornetq.jms.example;
  * @author dwildt
  */
 public class ProcessaMensagens {
-    private String tipo;
 
-    ProcessaMensagens(final String tipo) {
-       this.tipo = tipo;
-    }
-
-    public Object build() {
+    public static Object build(final String tipo) {
         if ( tipo.equals("loc.txt") ) {
             return new ProcessaLocaisAtendimento();
         } else {
